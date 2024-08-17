@@ -20,7 +20,7 @@ class main:
         self.f1 = font.Font(family='Serif', size='30')
         self.f2 = font.Font(family='Serif', size='10')
         self.f3 = font.Font(family='Serif', size='20')
-        self.pic = PhotoImage(file='E:\Class\Semester 6\CyberSecurity Project\Final\Resources\honey.png')
+        self.pic = PhotoImage(file='E:\Class\Semester 6\CyberSecurity Project\Final\Resources\lado.png')
 
         self.p1 = Label(self.root, image=self.pic)
         self.p1.pack()
@@ -71,7 +71,7 @@ class main:
                                                    corner_radius=10,
                                                    bg_color=("#192235", "#192235"),
                                                    fg_color=("dodger blue", "dodger blue"))
-        self.logs_button.place(relx='0.7', rely='0.3')
+        self.logs_button.place(relx='0.7', rely='0.5')
 
         self.root.mainloop()
 
@@ -85,9 +85,9 @@ class main:
     def service(self, service_name):
         self.new_window = Toplevel()
         self.new_window.title(service_name + " Honeypot")
-        self.new_window.geometry("400x250")
-        self.new_window.minsize(400, 250)
-        self.new_window.maxsize(400, 250)
+        self.new_window.geometry("500x300")
+        self.new_window.minsize(500, 300)
+        self.new_window.maxsize(500, 300)
 
         self.new_window.iconbitmap("E:\Class\Semester 6\CyberSecurity Project\Final\Resources\icon.ico")
 
@@ -98,17 +98,19 @@ class main:
         self.label_fg_color = ("white", "white")  # White text color for better contrast
         self.label_bg_color = "#182134"
 
+        self.label_padding_x = 100
+
         self.host_label = customtkinter.CTkLabel(self.new_window, 
                                                 text="Host IP Address:", 
                                                 font=self.label_font, 
                                                 text_color=self.label_fg_color,
                                                 fg_color=self.label_bg_color,
                                                 bg_color=("#192235", "#192235"))
-        self.host_label.pack(pady=5)
+        self.host_label.pack(pady=5, padx=(self.label_padding_x, 0), anchor="w")
         self.host_entry = customtkinter.CTkEntry(self.new_window,
                                                 bg_color=("#192235", "#192235"))
         self.host_entry.insert(0, "127.0.0.1")
-        self.host_entry.pack(pady=5)
+        self.host_entry.pack(pady=5, padx=(self.label_padding_x, 0), anchor="w")
 
         self.port_label = customtkinter.CTkLabel(self.new_window, 
                                                 text="Port:", 
@@ -116,11 +118,11 @@ class main:
                                                 text_color=self.label_fg_color,
                                                 fg_color=self.label_bg_color,
                                                 bg_color=("#192235", "#192235"))
-        self.port_label.pack(pady=5)
+        self.port_label.pack(pady=5, padx=(self.label_padding_x, 0), anchor="w")
         self.port_entry = customtkinter.CTkEntry(self.new_window,
                                                 bg_color=("#192235", "#192235"))
         self.port_entry.insert(0, "2222")
-        self.port_entry.pack(pady=5)
+        self.port_entry.pack(pady=5, padx=(self.label_padding_x, 0), anchor="w")
 
         if service_name == "HTTP":
             self.url_label = customtkinter.CTkLabel(self.new_window, 
@@ -129,11 +131,11 @@ class main:
                                                     text_color=self.label_fg_color,
                                                     fg_color=self.label_bg_color,
                                                     bg_color=("#192235", "#192235"))
-            self.url_label.pack(pady=5)
+            self.url_label.pack(pady=5, padx=(self.label_padding_x, 0), anchor="w")
             self.url_entry = customtkinter.CTkEntry(self.new_window,
                                                     bg_color=("#192235", "#192235"))
             self.url_entry.insert(0, "http://example.com")
-            self.url_entry.pack(pady=5)
+            self.url_entry.pack(pady=5, padx=(self.label_padding_x, 0), anchor="w")
 
         self.btn_start = customtkinter.CTkButton(master=self.new_window,
                                                  text=f'Start Honeypot {service_name}',

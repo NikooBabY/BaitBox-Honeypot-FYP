@@ -11,7 +11,7 @@ import webbrowser
 class main:
     def __init__(self):
         self.root = Tk()
-        self.root.title("Honeypot")
+        self.root.title("BaitBox Honeypot")
         self.root.geometry('600x700+600+200')
         self.root.minsize(500, 300)
         self.root.maxsize(500, 300)
@@ -91,24 +91,49 @@ class main:
 
         self.new_window.iconbitmap("E:\Class\Semester 6\CyberSecurity Project\Final\Resources\icon.ico")
 
-        self.host_label = Label(self.new_window, text="Host IP Address:")
+        self.bg_label = Label(self.new_window, image=self.pic)
+        self.bg_label.place(relwidth=1, relheight=1)
+
+        label_font = ("Helvetica", 16, "bold")
+        label_fg_color = ("white", "white")  # White text color for better contrast
+        label_bg_color = "#182134"
+
+        self.host_label = customtkinter.CTkLabel(self.new_window, 
+                                                text="Host IP Address:", 
+                                                font=label_font, 
+                                                text_color=label_fg_color,
+                                                fg_color=label_bg_color,
+                                                bg_color=("#192235", "#192235"))
         self.host_label.pack(pady=5)
-        self.host_entry = Entry(self.new_window)
+        self.host_entry = customtkinter.CTkEntry(self.new_window,
+                                                bg_color=("#192235", "#192235"))
         self.host_entry.insert(0, "127.0.0.1")
         self.host_entry.pack(pady=5)
 
-        self.port_label = Label(self.new_window, text="Port:")
+        self.port_label = customtkinter.CTkLabel(self.new_window, 
+                                                text="Port:", 
+                                                font=label_font, 
+                                                text_color=label_fg_color,
+                                                fg_color=label_bg_color,
+                                                bg_color=("#192235", "#192235"))
         self.port_label.pack(pady=5)
-        self.port_entry = Entry(self.new_window)
+        self.port_entry = customtkinter.CTkEntry(self.new_window,
+                                                bg_color=("#192235", "#192235"))
         self.port_entry.insert(0, "2222")
         self.port_entry.pack(pady=5)
 
         if service_name == "HTTP":
-            self.url_label = Label(self.new_window, text="URL:")
+            self.url_label = customtkinter.CTkLabel(self.new_window, 
+                                                    text="URL:", 
+                                                    font=label_font, 
+                                                    text_color=label_fg_color,
+                                                    fg_color=label_bg_color,
+                                                    bg_color=("#192235", "#192235"))
             self.url_label.pack(pady=5)
-            self.url_entry = Entry(self.new_window)
+            self.url_entry = customtkinter.CTkEntry(self.new_window,
+                                                    bg_color=("#192235", "#192235"))
             self.url_entry.insert(0, "http://example.com")
-            self.url_entry.pack(pady=1, padx=5)
+            self.url_entry.pack(pady=5)
 
         self.btn_start = customtkinter.CTkButton(master=self.new_window,
                                                  text=f'Start Honeypot {service_name}',

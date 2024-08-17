@@ -55,29 +55,6 @@ class SimpleFTPFactory(protocol.ServerFactory):
     protocol = SimpleFTPProtocol
 
 
-# def main():
-#     parser = argparse.ArgumentParser(description="Run a simple FTP honeypot server.")
-#     parser.add_argument(
-#         "--host", type=str, default="0.0.0.0", help="Host to bind the FTP server to."
-#     )
-#     parser.add_argument(
-#         "--port", type=int, default=2121, help="Port to bind the FTP server to."
-#     )
-#     args = parser.parse_args()
-
-#     LOG_FILE_PATH = os.path.join(log_dir, "ftp_honeypot.log")
-#     print(f"FTP HONEYPOT ACTIVE ON HOST: {args.host}, PORT: {args.port}")
-#     print(f"ALL attempts will be logged in: {LOG_FILE_PATH}")
-
-#     log_observer = log.FileLogObserver(open(LOG_FILE_PATH, "a"))
-#     log.startLoggingWithObserver(log_observer.emit, setStdout=False)
-
-#     ftp_factory = SimpleFTPFactory()
-
-#     endpoint = endpoints.TCP4ServerEndpoint(reactor, args.port, interface=args.host)
-#     endpoint.listen(ftp_factory)
-#     reactor.run()
-
 def setup_ftp_honeypot(host, port):
     LOG_FILE_PATH = os.path.join(log_dir, "ftp_honeypot.log")
     print(f"FTP HONEYPOT ACTIVE ON HOST: {host}, PORT: {port}")
@@ -92,8 +69,6 @@ def setup_ftp_honeypot(host, port):
     endpoint.listen(ftp_factory)
     reactor.run()
 
-# if __name__ == "__main__":
-#     main()
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:

@@ -200,22 +200,6 @@ class SimpleHTTPServer:
             return False
 
 
-# def main():
-#     parser = argparse.ArgumentParser(description="Run a simple HTTP server.")
-#     parser.add_argument(
-#         "--host", type=str, default="0.0.0.0", help="Host to bind the HTTP server to."
-#     )
-#     parser.add_argument(
-#         "-p", "--port", type=int, default=80, help="Port to bind the HTTP server to."
-#     )
-#     parser.add_argument(
-#         "--url", type=str, required=True, help="URL to download and serve HTML from."
-#     )
-#     args = parser.parse_args()
-
-#     http_server = SimpleHTTPServer(args.host, args.port, args.url)
-#     http_server.start()
-
 def main():
     import sys
     if len(sys.argv) != 4:

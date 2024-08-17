@@ -94,15 +94,15 @@ class main:
         self.bg_label = Label(self.new_window, image=self.pic)
         self.bg_label.place(relwidth=1, relheight=1)
 
-        label_font = ("Helvetica", 16, "bold")
-        label_fg_color = ("white", "white")  # White text color for better contrast
-        label_bg_color = "#182134"
+        self.label_font = ("Helvetica", 16, "bold")
+        self.label_fg_color = ("white", "white")  # White text color for better contrast
+        self.label_bg_color = "#182134"
 
         self.host_label = customtkinter.CTkLabel(self.new_window, 
                                                 text="Host IP Address:", 
-                                                font=label_font, 
-                                                text_color=label_fg_color,
-                                                fg_color=label_bg_color,
+                                                font=self.label_font, 
+                                                text_color=self.label_fg_color,
+                                                fg_color=self.label_bg_color,
                                                 bg_color=("#192235", "#192235"))
         self.host_label.pack(pady=5)
         self.host_entry = customtkinter.CTkEntry(self.new_window,
@@ -112,9 +112,9 @@ class main:
 
         self.port_label = customtkinter.CTkLabel(self.new_window, 
                                                 text="Port:", 
-                                                font=label_font, 
-                                                text_color=label_fg_color,
-                                                fg_color=label_bg_color,
+                                                font=self.label_font, 
+                                                text_color=self.label_fg_color,
+                                                fg_color=self.label_bg_color,
                                                 bg_color=("#192235", "#192235"))
         self.port_label.pack(pady=5)
         self.port_entry = customtkinter.CTkEntry(self.new_window,
@@ -125,9 +125,9 @@ class main:
         if service_name == "HTTP":
             self.url_label = customtkinter.CTkLabel(self.new_window, 
                                                     text="URL:", 
-                                                    font=label_font, 
-                                                    text_color=label_fg_color,
-                                                    fg_color=label_bg_color,
+                                                    font=self.label_font, 
+                                                    text_color=self.label_fg_color,
+                                                    fg_color=self.label_bg_color,
                                                     bg_color=("#192235", "#192235"))
             self.url_label.pack(pady=5)
             self.url_entry = customtkinter.CTkEntry(self.new_window,

@@ -1,0 +1,106 @@
+2024-07-07 13:12:15+0545 [-] Log opened.
+2024-07-07 13:12:15+0545 [-] SimpleFTPFactory starting on 2121
+2024-07-07 13:12:15+0545 [-] Starting factory <__main__.SimpleFTPFactory object at 0x000001F69DD21750>
+2024-07-07 13:12:17+0545 [-] Received SIGINT, shutting down.
+2024-07-07 13:12:17+0545 [__main__.SimpleFTPFactory] (TCP Port 2121 Closed)
+2024-07-07 13:12:17+0545 [-] Stopping factory <__main__.SimpleFTPFactory object at 0x000001F69DD21750>
+2024-07-07 13:12:17+0545 [-] Main loop terminated.
+2024-07-07 13:12:31+0545 [-] Log opened.
+2024-07-07 13:12:31+0545 [-] SimpleFTPFactory starting on 2121
+2024-07-07 13:12:31+0545 [-] Starting factory <__main__.SimpleFTPFactory object at 0x000001BDA61B9420>
+2024-07-07 13:14:19+0545 [__main__.SimpleFTPFactory] FTP NEW Connection - Client IP: 127.0.0.1, Port: 61564
+2024-07-07 13:14:19+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'OPTS UTF8 ON'
+2024-07-07 13:14:25+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'USER test'
+2024-07-07 13:14:28+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'PASS test'
+2024-07-07 13:15:35+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'PORT 127,0,0,1,240,160'
+2024-07-07 13:15:35+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'LIST'
+2024-07-07 13:15:49+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'QUIT'
+2024-07-07 13:15:49+0545 [SimpleFTPProtocol,0,127.0.0.1] Connection lost
+2024-07-07 13:16:33+0545 [__main__.SimpleFTPFactory] FTP NEW Connection - Client IP: 127.0.0.1, Port: 61616
+2024-07-07 13:16:33+0545 [SimpleFTPProtocol,1,127.0.0.1] Received data: b'OPTS UTF8 ON'
+2024-07-07 13:16:43+0545 [SimpleFTPProtocol,1,127.0.0.1] Received data: b'USER sulav'
+2024-07-07 13:16:46+0545 [SimpleFTPProtocol,1,127.0.0.1] Received data: b'PASS sulav'
+2024-07-07 13:17:14+0545 [SimpleFTPProtocol,1,127.0.0.1] Received data: b'PORT 127,0,0,1,240,177'
+2024-07-07 13:17:14+0545 [SimpleFTPProtocol,1,127.0.0.1] Received data: b'LIST'
+2024-07-07 13:17:37+0545 [SimpleFTPProtocol,1,127.0.0.1] Received data: b'RETR test'
+2024-07-07 13:47:57+0545 [-] Log opened.
+2024-07-07 13:47:57+0545 [-] SimpleFTPFactory starting on 2121
+2024-07-07 13:47:57+0545 [-] Starting factory <ftp.SimpleFTPFactory object at 0x0000021A7C354430>
+2024-07-07 13:48:04+0545 [-] Received SIGINT, shutting down.
+2024-07-07 13:48:04+0545 [ftp.SimpleFTPFactory] (TCP Port 2121 Closed)
+2024-07-07 13:48:04+0545 [-] Stopping factory <ftp.SimpleFTPFactory object at 0x0000021A7C354430>
+2024-07-07 13:48:04+0545 [-] Main loop terminated.
+2024-07-10 13:52:07+0545 [-] Warning: primary log target selected twice at <C:\Python3101\lib\site-packages\twisted\python\log.py:208> - previously selected at <C:\Python3101\lib\site-packages\twisted\python\log.py:208>.  Remove one of the calls to beginLoggingTo.
+2024-07-10 13:52:07+0545 [-] Log opened.
+2024-07-10 13:52:07+0545 [-] SimpleFTPFactory starting on 2121
+2024-07-10 13:52:07+0545 [-] Starting factory <ftp.SimpleFTPFactory object at 0x000001175D47D750>
+2024-07-10 13:52:12+0545 [-] Warning: primary log target selected twice at <C:\Python3101\lib\site-packages\twisted\python\log.py:208> - previously selected at <C:\Python3101\lib\site-packages\twisted\python\log.py:208>.  Remove one of the calls to beginLoggingTo.
+2024-07-10 13:52:12+0545 [-] Log opened.
+2024-07-10 13:52:12+0545 [-] SimpleTelnetFactory starting on 2323
+2024-07-10 13:52:12+0545 [-] Starting factory <telnet.SimpleTelnetFactory object at 0x000001175D47DB70>
+2024-07-10 13:53:19+0545 [-] Received SIGINT, shutting down.
+2024-07-11 12:17:45+0545 [-] Log opened.
+2024-07-11 12:17:45+0545 [-] SimpleFTPFactory starting on 2121
+2024-07-11 12:17:45+0545 [-] Starting factory <ftp.SimpleFTPFactory object at 0x000001C76FC727A0>
+2024-07-11 14:31:09+0545 [-] Warning: primary log target selected twice at <C:\Python3101\lib\site-packages\twisted\python\log.py:208> - previously selected at <C:\Python3101\lib\site-packages\twisted\python\log.py:208>.  Remove one of the calls to beginLoggingTo.
+2024-07-11 14:31:09+0545 [-] Log opened.
+2024-07-11 14:31:09+0545 [-] SimpleFTPFactory starting on 2121
+2024-07-11 14:31:09+0545 [-] Starting factory <ftp.SimpleFTPFactory object at 0x000001AB1353F6A0>
+2024-08-07 17:48:13+0545 [-] Log opened.
+2024-08-07 17:48:13+0545 [-] SimpleFTPFactory starting on 2121
+2024-08-07 17:48:13+0545 [-] Starting factory <ftp.SimpleFTPFactory object at 0x0000020647745CF0>
+2024-08-07T19:12:33+0545 [-] Log opened.
+2024-08-07T19:12:33+0545 [-] SimpleFTPFactory starting on 5467
+2024-08-07T19:12:33+0545 [__main__.SimpleFTPFactory#info] Starting factory <__main__.SimpleFTPFactory object at 0x00000135732A90C0>
+2024-08-07T19:14:07+0545 [-] Log opened.
+2024-08-07T19:14:07+0545 [twisted.internet.defer#critical] Unhandled error in Deferred:
+2024-08-07T19:14:07+0545 [twisted.internet.defer#critical] 
+	Traceback (most recent call last):
+	  File "E:\Class\Semester 6\CyberSecurity Project\Final\ftp.py", line 106, in <module>
+	    setup_ftp_honeypot(host, port)
+	  File "E:\Class\Semester 6\CyberSecurity Project\Final\ftp.py", line 92, in setup_ftp_honeypot
+	    endpoint.listen(ftp_factory)
+	  File "C:\Python3101\lib\site-packages\twisted\internet\endpoints.py", line 513, in listen
+	    return defer.execute(
+	--- <exception caught here> ---
+	  File "C:\Python3101\lib\site-packages\twisted\internet\defer.py", line 151, in execute
+	    result = callable(*args, **kwargs)
+	  File "C:\Python3101\lib\site-packages\twisted\internet\posixbase.py", line 364, in listenTCP
+	    p.startListening()
+	  File "C:\Python3101\lib\site-packages\twisted\internet\tcp.py", line 1348, in startListening
+	    raise CannotListenError(self.interface, self.port, le)
+	twisted.internet.error.CannotListenError: Couldn't listen on 127.0.0.1:5467: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted.
+	
+2024-08-07T19:14:21+0545 [-] Log opened.
+2024-08-07T19:14:21+0545 [-] SimpleFTPFactory starting on 4444
+2024-08-07T19:14:21+0545 [__main__.SimpleFTPFactory#info] Starting factory <__main__.SimpleFTPFactory object at 0x0000028FEDCC9240>
+2024-08-07T19:17:04+0545 [__main__.SimpleFTPFactory] FTP NEW Connection - Client IP: 127.0.0.1, Port: 54865
+2024-08-07T19:17:33+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'testuser'
+2024-08-07T19:17:56+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'USER\x1b[24~c\x08'
+2024-08-07T19:17:59+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'USER'
+2024-08-07T19:18:03+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'PASS'
+2024-08-07T19:18:08+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'USER\x1b[24~c\x08'
+2024-08-07T19:18:11+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'USER'
+2024-08-07T19:18:13+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'lado'
+2024-08-07T19:18:17+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'PASS'
+2024-08-07T19:18:51+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'\x03quit'
+2024-08-07T19:18:53+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'exit'
+2024-08-07T19:18:57+0545 [SimpleFTPProtocol,0,127.0.0.1] Connection lost
+2024-08-07T19:42:22+0545 [-] Received SIGINT, shutting down.
+2024-08-07T19:42:22+0545 [__main__.SimpleFTPFactory] (TCP Port 5467 Closed)
+2024-08-07T19:42:22+0545 [__main__.SimpleFTPFactory#info] Stopping factory <__main__.SimpleFTPFactory object at 0x00000135732A90C0>
+2024-08-07T19:42:22+0545 [-] Main loop terminated.
+2024-08-08T18:44:11+0545 [-] Log opened.
+2024-08-08T18:44:11+0545 [-] SimpleFTPFactory starting on 2222
+2024-08-08T18:44:11+0545 [__main__.SimpleFTPFactory#info] Starting factory <__main__.SimpleFTPFactory object at 0x000001F35FECCD60>
+2024-08-08T18:44:20+0545 [__main__.SimpleFTPFactory] FTP NEW Connection - Client IP: 127.0.0.1, Port: 59908
+2024-08-08T18:44:37+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'laudo'
+2024-08-08T18:44:40+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'exit'
+2024-08-08T18:44:45+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'whatthefux'
+2024-08-08T18:44:46+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'\x03exit'
+2024-08-08T18:44:47+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b''
+2024-08-08T18:44:47+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b''
+2024-08-08T18:44:47+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b''
+2024-08-08T18:44:47+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b''
+2024-08-08T18:44:47+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b''
+2024-08-08T18:44:57+0545 [SimpleFTPProtocol,0,127.0.0.1] Connection lost

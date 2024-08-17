@@ -20,7 +20,7 @@ class main:
         self.f1 = font.Font(family='Serif', size='30')
         self.f2 = font.Font(family='Serif', size='10')
         self.f3 = font.Font(family='Serif', size='20')
-        self.pic = PhotoImage(file='E:\Class\Semester 6\CyberSecurity Project\Final\Resources\lado.png')
+        self.pic = PhotoImage(file='E:\Class\Semester 6\CyberSecurity Project\Final\Resources\honey.png')
 
         self.p1 = Label(self.root, image=self.pic)
         self.p1.pack()
@@ -101,7 +101,7 @@ class main:
         self.label_padding_x = 100
 
         self.host_label = customtkinter.CTkLabel(self.new_window, 
-                                                text="Host IP Address:", 
+                                                text="Host IP Address", 
                                                 font=self.label_font, 
                                                 text_color=self.label_fg_color,
                                                 fg_color=self.label_bg_color,
@@ -113,7 +113,7 @@ class main:
         self.host_entry.pack(pady=5, padx=(self.label_padding_x, 0), anchor="w")
 
         self.port_label = customtkinter.CTkLabel(self.new_window, 
-                                                text="Port:", 
+                                                text="Port", 
                                                 font=self.label_font, 
                                                 text_color=self.label_fg_color,
                                                 fg_color=self.label_bg_color,
@@ -126,7 +126,7 @@ class main:
 
         if service_name == "HTTP":
             self.url_label = customtkinter.CTkLabel(self.new_window, 
-                                                    text="URL:", 
+                                                    text="URL", 
                                                     font=self.label_font, 
                                                     text_color=self.label_fg_color,
                                                     fg_color=self.label_bg_color,

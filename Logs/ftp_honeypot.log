@@ -11,3 +11,6 @@
 2024-08-18T13:01:15+0545 [SimpleFTPProtocol,0,127.0.0.1] Received data: b'PASS Cristiano'
 2024-08-18T13:01:15+0545 [SimpleFTPProtocol,0,127.0.0.1] Maximum attempts reached. Disconnecting client.
 2024-08-18T13:01:15+0545 [SimpleFTPProtocol,0,127.0.0.1] Connection lost
+2024-08-18T15:24:07+0545 [-] Log opened.
+2024-08-18T15:24:07+0545 [-] SimpleFTPFactory starting on 3333
+2024-08-18T15:24:07+0545 [__main__.SimpleFTPFactory#info] Starting factory <__main__.SimpleFTPFactory object at 0x0000028222BDCCD0>

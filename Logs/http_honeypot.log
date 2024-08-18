@@ -85,3 +85,6 @@
 2024-08-18 14:18:09+0545 [_GenericHTTPChannelProtocol,0,127.0.0.1] src_ip=127.0.0.1, src_port=51973, user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 OPR/112.0.0.0', language='en-US,en;q=0.9', referer='http://127.0.0.1:2222/', protocol_version='Unknown', path='/submit', post_data={'username': ['Sulav'], 'password': ['TestingReport']}
 2024-08-18 14:18:09+0545 [-] "127.0.0.1" - - [18/Aug/2024:08:33:08 +0000] "POST /submit HTTP/1.1" 200 422 "http://127.0.0.1:2222/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 OPR/112.0.0.0"
 2024-08-18 14:18:09+0545 [-] "127.0.0.1" - - [18/Aug/2024:08:33:08 +0000] "GET /favicon.ico HTTP/1.1" 200 422 "http://127.0.0.1:2222/submit" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 OPR/112.0.0.0"
+2024-08-18 15:25:54+0545 [-] Log opened.
+2024-08-18 15:25:54+0545 [-] Site starting on 2222
+2024-08-18 15:25:54+0545 [-] Starting factory <twisted.web.server.Site object at 0x000002B3FA6AF9D0>

@@ -42,3 +42,6 @@
 2024-08-18T14:19:07+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] b'lucif' failed auth b'password'
 2024-08-18T14:19:07+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] unauthorized login: ()
 2024-08-18T14:19:07+0545 [__main__.CustomSSHServerTransport#info] connection lost
+2024-08-18T15:24:02+0545 [-] Log opened.
+2024-08-18T15:24:02+0545 [-] SimpleSSHFactory starting on 2222
+2024-08-18T15:24:02+0545 [__main__.SimpleSSHFactory#info] Starting factory <__main__.SimpleSSHFactory object at 0x0000026273DBDC90>

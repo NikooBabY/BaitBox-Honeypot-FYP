@@ -13,11 +13,11 @@ class main:
         self.root.minsize(500, 300)
         self.root.maxsize(500, 300)
         self.root.configure(bg='Sky blue')
-        self.root.iconbitmap("E:\Class\Semester 6\CyberSecurity Project\Final-Development\Resources\icon.ico")
+        self.root.iconbitmap("E:\Class\Semester 6\CyberSecurity Project\Final\Resources\icon.ico")
         self.f1 = font.Font(family='Serif', size='30')
         self.f2 = font.Font(family='Serif', size='10')
         self.f3 = font.Font(family='Serif', size='20')
-        self.pic = PhotoImage(file='E:\Class\Semester 6\CyberSecurity Project\Final-Development\Resources\honey.png')
+        self.pic = PhotoImage(file='E:\Class\Semester 6\CyberSecurity Project\Final\Resources\honey.png')
 
         self.p1 = Label(self.root, image=self.pic)
         self.p1.pack()
@@ -86,7 +86,7 @@ class main:
         self.new_window.minsize(500, 300)
         self.new_window.maxsize(500, 300)
 
-        self.new_window.iconbitmap("E:\Class\Semester 6\CyberSecurity Project\Final-Development\Resources\icon.ico")
+        self.new_window.iconbitmap("E:\Class\Semester 6\CyberSecurity Project\Final\Resources\icon.ico")
 
         self.bg_label = Label(self.new_window, image=self.pic)
         self.bg_label.place(relwidth=1, relheight=1)

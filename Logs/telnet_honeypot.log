@@ -1,0 +1,16 @@
+2024-08-18T13:02:02+0545 [-] Log opened.
+2024-08-18T13:02:02+0545 [-] SimpleTelnetFactory starting on 4444
+2024-08-18T13:02:02+0545 [__main__.SimpleTelnetFactory#info] Starting factory <__main__.SimpleTelnetFactory object at 0x0000026C5350ED10>
+2024-08-18T13:02:11+0545 [__main__.SimpleTelnetFactory] TELNET NEW Connection - Client IP: 127.0.0.1, Port: 54403
+2024-08-18T13:02:15+0545 [SimpleTelnetProtocol,0,127.0.0.1] Received username attempt: b'Sulav\r'
+2024-08-18T13:02:19+0545 [SimpleTelnetProtocol,0,127.0.0.1] Received password attempt: b'Dada\x08\x08\x08\x08Ronaldo\r'
+2024-08-18T13:02:21+0545 [SimpleTelnetProtocol,0,127.0.0.1] Received username attempt: b'Sulav\r'
+2024-08-18T13:02:25+0545 [SimpleTelnetProtocol,0,127.0.0.1] Received password attempt: b'Crst\x08\x08ista\x08iano\r'
+2024-08-18T13:02:27+0545 [SimpleTelnetProtocol,0,127.0.0.1] Received username attempt: b'BaitBox\r'
+2024-08-18T13:02:29+0545 [SimpleTelnetProtocol,0,127.0.0.1] Received password attempt: b'Testing\r'
+2024-08-18T13:02:29+0545 [SimpleTelnetProtocol,0,127.0.0.1] Maximum attempts reached. Disconnecting client.
+2024-08-18T13:02:29+0545 [SimpleTelnetProtocol,0,127.0.0.1] Connection lost
+2024-08-18T13:03:15+0545 [-] Received SIGINT, shutting down.
+2024-08-18T13:03:15+0545 [__main__.SimpleTelnetFactory] (TCP Port 4444 Closed)
+2024-08-18T13:03:15+0545 [__main__.SimpleTelnetFactory#info] Stopping factory <__main__.SimpleTelnetFactory object at 0x0000026C5350ED10>
+2024-08-18T13:03:15+0545 [-] Main loop terminated.

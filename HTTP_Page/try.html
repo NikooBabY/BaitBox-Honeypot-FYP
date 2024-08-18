@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sulav Bank Limited</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: url('https://img.freepik.com/free-vector/global-virtual-currency-sign-techno-concept-background-design_1017-52482.jpg?w=1380&t=st=1723045063~exp=1723045663~hmac=040cd23138c4ec30190ecf4026d2af185610f5dce8ed985ea56a1b677161d8ce') no-repeat center center fixed;
+            background-size: cover;
+        }
+        .login-container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            width: 360px; /* Increased width for longer fields */
+        }
+        .login-container h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: 700;
+            color: #333;
+            text-align: center;
+        }
+        .login-container input {
+            width: calc(100% - 22px);
+            padding: 12px 15px; /* Increased padding for taller fields */
+            margin-bottom: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: 400;
+        }
+        .login-container button {
+            display: block;
+            width: 100%;
+            max-width: 260px; /* Adjusted width for smaller button */
+            padding: 10px;
+            margin: 0 auto;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        .login-container button:hover {
+            background-color: #0056b3;
+        }
+        .message {
+            color: red;
+            font-size: 14px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login to Sulav Bank Limited</h2>
+        <form action="/submit" method="post"></form>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit" value="Login">Login</button>
+        </form>
+    </div>
+
+</body>
+</html>

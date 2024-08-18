@@ -1,0 +1,44 @@
+2024-08-18T12:58:36+0545 [-] Log opened.
+2024-08-18T12:58:36+0545 [-] SimpleSSHFactory starting on 2222
+2024-08-18T12:58:36+0545 [__main__.SimpleSSHFactory#info] Starting factory <__main__.SimpleSSHFactory object at 0x000002A14E45E0E0>
+2024-08-18T12:58:53+0545 [__main__.CustomSSHServerTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ssh-rsa'
+2024-08-18T12:58:53+0545 [__main__.CustomSSHServerTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-08-18T12:58:53+0545 [__main__.CustomSSHServerTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-08-18T12:58:55+0545 [__main__.CustomSSHServerTransport#debug] NEW KEYS
+2024-08-18T12:58:55+0545 [__main__.CustomSSHServerTransport#debug] starting service b'ssh-userauth'
+2024-08-18T12:58:55+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] b'lucif' trying auth b'none'
+2024-08-18T12:58:59+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] b'lucif' trying auth b'password'
+2024-08-18T12:58:59+0545 [CustomSSHServerTransport,0,127.0.0.1] Login attempt - Username: b'lucif', Password: b'Test'
+2024-08-18T12:59:00+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] b'lucif' failed auth b'password'
+2024-08-18T12:59:00+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] unauthorized login: ()
+2024-08-18T12:59:04+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] b'lucif' trying auth b'password'
+2024-08-18T12:59:04+0545 [CustomSSHServerTransport,0,127.0.0.1] Login attempt - Username: b'lucif', Password: b'Finalyeartesting'
+2024-08-18T12:59:05+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] b'lucif' failed auth b'password'
+2024-08-18T12:59:05+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] unauthorized login: ()
+2024-08-18T12:59:08+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] b'lucif' trying auth b'password'
+2024-08-18T12:59:08+0545 [CustomSSHServerTransport,0,127.0.0.1] Login attempt - Username: b'lucif', Password: b'What is this'
+2024-08-18T12:59:09+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] b'lucif' failed auth b'password'
+2024-08-18T12:59:09+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] unauthorized login: ()
+2024-08-18T12:59:09+0545 [__main__.CustomSSHServerTransport#info] connection lost
+2024-08-18T14:18:41+0545 [-] Log opened.
+2024-08-18T14:18:41+0545 [-] SimpleSSHFactory starting on 2222
+2024-08-18T14:18:41+0545 [__main__.SimpleSSHFactory#info] Starting factory <__main__.SimpleSSHFactory object at 0x00000203AD5CDC30>
+2024-08-18T14:18:59+0545 [__main__.CustomSSHServerTransport#debug] kex alg=b'curve25519-sha256' key alg=b'ssh-rsa'
+2024-08-18T14:18:59+0545 [__main__.CustomSSHServerTransport#debug] outgoing: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-08-18T14:18:59+0545 [__main__.CustomSSHServerTransport#debug] incoming: b'aes128-ctr' b'hmac-sha2-256' b'none'
+2024-08-18T14:18:59+0545 [__main__.CustomSSHServerTransport#debug] NEW KEYS
+2024-08-18T14:18:59+0545 [__main__.CustomSSHServerTransport#debug] starting service b'ssh-userauth'
+2024-08-18T14:18:59+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] b'lucif' trying auth b'none'
+2024-08-18T14:19:00+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] b'lucif' trying auth b'password'
+2024-08-18T14:19:00+0545 [CustomSSHServerTransport,0,127.0.0.1] Login attempt - Username: b'lucif', Password: b'discord'
+2024-08-18T14:19:01+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] b'lucif' failed auth b'password'
+2024-08-18T14:19:01+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] unauthorized login: ()
+2024-08-18T14:19:04+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] b'lucif' trying auth b'password'
+2024-08-18T14:19:04+0545 [CustomSSHServerTransport,0,127.0.0.1] Login attempt - Username: b'lucif', Password: b'discordtest'
+2024-08-18T14:19:05+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] b'lucif' failed auth b'password'
+2024-08-18T14:19:05+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] unauthorized login: ()
+2024-08-18T14:19:06+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] b'lucif' trying auth b'password'
+2024-08-18T14:19:06+0545 [CustomSSHServerTransport,0,127.0.0.1] Login attempt - Username: b'lucif', Password: b'alerttest'
+2024-08-18T14:19:07+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] b'lucif' failed auth b'password'
+2024-08-18T14:19:07+0545 [twisted.conch.ssh.userauth.SSHUserAuthServer#debug] unauthorized login: ()
+2024-08-18T14:19:07+0545 [__main__.CustomSSHServerTransport#info] connection lost

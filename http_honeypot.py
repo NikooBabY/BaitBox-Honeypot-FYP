@@ -208,7 +208,7 @@ def main():
 
     host = sys.argv[1]
     port = int(sys.argv[2])
-    url = sys.argv[3]  # Replace with a default URL or fetch from arguments
+    url = sys.argv[3]  
 
     http_server = SimpleHTTPServer(host, port, url)
     http_server.start()
@@ -216,3 +216,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+

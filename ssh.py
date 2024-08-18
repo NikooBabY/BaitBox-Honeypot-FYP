@@ -108,7 +108,7 @@ def setup_ssh_honeypot(host, port, version):
     log_observer = textFileLogObserver(open(LOG_FILE_PATH, "a"))
     log.startLoggingWithObserver(log_observer, setStdout=False)
 
-    # Placeholder for SSH server setup (add your actual SSH setup here)
+    #SSH server setup
     ssh_factory = SimpleSSHFactory(version)
     ssh_realm = SimpleSSHRealm()
     ssh_portal = portal.Portal(ssh_realm)
@@ -119,10 +119,6 @@ def setup_ssh_honeypot(host, port, version):
     endpoint = endpoints.TCP4ServerEndpoint(reactor, port, interface=host)
     endpoint.listen(ssh_factory)
     reactor.run()
-
-def shutdown():
-    print("Shutting down")
-    reactor.stop()
 
 
 if __name__ == "__main__":

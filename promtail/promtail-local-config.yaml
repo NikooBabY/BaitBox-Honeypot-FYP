@@ -15,5 +15,6 @@ scrape_configs:
       - localhost
     labels:
       job: varlogs
-      __path__: E:\Class\Semester 6\CyberSecurity Project\Final\Logs\*log
+      __path__: E:\Class\Semester 6\CyberSecurity Project\Final-Development\Logs\*log
       stream: stdout
+

@@ -1,5 +1,11 @@
 # BaitBox: A Multi-Service Low-Interaction Honeypot
 
+#Sulavkarki
+#210350
+#Softwarica College of IT and E-Commerce
+#Final Year Project
+#2024
+
 ## Overview
 BaitBox is a multi-service low-interaction honeypot designed to enhance cybersecurity for commercial banks in the Kathmandu Valley. It emulates various network services, including SSH, FTP, Telnet, and HTTP, to attract, log, and analyze unauthorized access attempts. The honeypot provides a proactive approach to security, allowing organizations to detect and study attack patterns in a controlled environment.
 
